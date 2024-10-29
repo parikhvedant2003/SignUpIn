@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyd
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# If you are using PostgreSQL, MySQL, etc., exclude their local DB files
+*.pgdata
+*.sql
+*.db
+
+# JWT secret file
+jwt_secret.json
+
+# Django Migrations
+**/migrations/*
+
+# VSCode and IDE files
+.vscode/
+.idea/
+
+# Pytest and Coverage
+htmlcov/
+.tox/
+.coverage
+.cache
+.pytest_cache/
+
+# MyPy and Type Checks
+.mypy_cache/
+.dmypy.json
+.pyre/
+type_check_results/
+
+# Logs and Local Environment Variables
+*.log
+*.env
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MacOS and Windows system files
+.DS_Store
+Thumbs.db
+
+.idea/
