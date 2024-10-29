@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-+gi9b1n7dsx17180l)tp&jvs@uy3zg3==yrj04l10w1+8-&o-i'
+SECRET_KEY = '<DJANGO-SECRET-KEY>'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -143,7 +143,7 @@ REST_FRAMEWORK = {
 
 # settings.py
 
-JWT_SECRET_KEY = 'n9jsJ8HJjW4LksuN_DkU8XIRyT5fTlHq_PqW8HrV9g0'  # Replace this with your generated key
+JWT_SECRET_KEY = '<JWT-SECRET-KEY>'  # Replace this with your generated key
 JWT_ALGORITHM = 'HS256'
 
 
