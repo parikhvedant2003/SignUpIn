@@ -49,11 +49,11 @@
      ```
 
 3. **Install Project Dependencies**:
-   - **Step 3.1**: Set up the poetry for the project folder.
+   - **Step 3.1**: Install basic dependencies for setting up the project.
      ```bash
-     pip install poetry
+     pip install -r requirements.txt
      ```
-   - **Step 3.2**: Install the dependencies using the poetry.
+   - **Step 3.2**: Install the dependencies of the project using the poetry.
      ```bash
      poetry install
      ```
