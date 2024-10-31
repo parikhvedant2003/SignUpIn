@@ -93,10 +93,10 @@ SignUpIn/
 │   ├── urls.py             # Project URLs
 │   └── wsgi.py             # WSGI config for deployment
 ├── SignUpSignIn/
-    ├── models.py           # CustomUser model definition
-    ├── views.py            # Business logic for signup, signin, logout
-    ├── serializers.py      # Serializers for handling JSON data
-    └── urls.py             # API endpoint URLs
+│   ├── models.py           # CustomUser model definition
+│   ├── views.py            # Business logic for signup, signin, logout
+│   ├── serializers.py      # Serializers for handling JSON data
+│   └── urls.py             # API endpoint URLs
 ├── requirements.txt
 ├── poetry.lock
 ├── pyproject.toml
