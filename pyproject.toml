@@ -1,4 +1,11 @@
 [tool.poetry]
+name = "signupin"
+version = "0.1.0"
+description = ""
+authors = ["Veddant Parikh <parikhvedant2003@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry]
 name = "signupsignin"
 version = "0.1.0"
 description = ""
