@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "SignUpInPoetry"
+name = "signupin"
 version = "0.1.0"
 description = ""
 authors = ["Veddant Parikh <parikhvedant2003@gmail.com>"]
