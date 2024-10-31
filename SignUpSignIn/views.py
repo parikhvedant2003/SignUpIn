@@ -7,6 +7,7 @@ from rest_framework.decorators import api_view
 from django.conf import settings
 from django.core.validators import validate_email
 from django.core.exceptions import ValidationError
+from django.http import HttpResponse
 
 User = get_user_model()
 
@@ -33,7 +34,7 @@ def verify_jwt_token(token):
         return None
 
 def home(request):
-    return Response({"message": "Works Perfectly Fine!!!"})
+    return HttpResponse("Everything Works FINE!!!")
 
 @api_view(['GET'])
 def index(request):
