@@ -32,6 +32,8 @@ def verify_jwt_token(token):
     except (jwt.ExpiredSignatureError, jwt.InvalidTokenError, User.DoesNotExist):
         return None
 
+def home(request):
+    return Response({"message": "Works Perfectly Fine!!!"})
 
 @api_view(['GET'])
 def index(request):
