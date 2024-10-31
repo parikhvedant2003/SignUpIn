@@ -97,6 +97,10 @@ SignUpIn/
     ├── views.py            # Business logic for signup, signin, logout
     ├── serializers.py      # Serializers for handling JSON data
     └── urls.py             # API endpoint URLs
+├── requirements.txt
+├── poetry.lock
+├── pyproject.toml
+├── manage.py
 ```
 
 ## Configuration
